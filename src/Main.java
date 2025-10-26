@@ -33,5 +33,11 @@ public class Main {
             System.out.print(v + " ");
         }
         System.out.println();
+//task 8
+        int sum = 0;
+        for (int b = 1; b <= 12; b++) {
+            sum = sum + 29000;
+            System.out.println("Месяц " + b+ ", сумма накоплений равна " + sum + " рублей");
+        }
     }
 }
