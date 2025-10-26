@@ -39,5 +39,13 @@ public class Main {
             sum = sum + 29000;
             System.out.println("Месяц " + b+ ", сумма накоплений равна " + sum + " рублей");
         }
+//task 8
+        int salary = 29000;
+        int total = 0;
+        for (int n = 0; n < 12; n++) {
+            total = total + total/100;
+            total = total + salary;
+            System.out.println("Месяц " + n + ", сумма накоплений равна " + total + " рублей");
+        }
     }
 }
