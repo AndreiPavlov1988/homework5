@@ -28,5 +28,10 @@ public class Main {
             System.out.print(c + " ");
         }
         System.out.println();
+//task 7
+        for (int v = 1; v <= 512; v = v * 2) {
+            System.out.print(v + " ");
+        }
+        System.out.println();
     }
 }
